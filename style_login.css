@@ -1,0 +1,76 @@
+
+.login{
+    color: rgb(174, 255, 255);
+    background-color: rgb(0, 10, 84);
+     border: 3px solid rgb(0, 1, 2);
+     border-radius: 10px;
+     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.253);
+     padding:30px;
+}
+
+button{
+    margin-top: 15px;
+    background-color: rgb(1, 29, 119);
+    border-radius: 50px;
+    color: rgb(174, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 3px solid rgb(0, 1, 2);
+   
+}
+
+body{
+     display: flex;
+    flex-direction: column;
+     position: relative;
+    background-color: rgb(174, 255, 255);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+footer{
+    background-color: rgb(0, 10, 84);
+    color: rgb(174, 255, 255);
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    border: 2px solid rgb(0, 1, 2);
+     box-shadow: 0px 10px 0px rgb(0, 10, 84);
+}
+
+.senha{
+    margin-top: 20px;
+    color: rgb(174, 255, 255);
+}
+
+.email{
+    margin-top: 20px;
+    color: rgb(174, 255, 255);
+}
+
+input{
+    padding: 3px;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 1, 2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.253);
+}
+
+p{
+    margin-top: 20px;
+    color: rgb(174, 255, 255);
+    text-align: center;
+    text-decoration: bold;
+}
+
+button:hover{
+    background-color: rgb(20, 34, 142);
+    color: rgb(174, 255, 255);
+    border: 3px solid rgb(22, 22, 22);
+   
+}
